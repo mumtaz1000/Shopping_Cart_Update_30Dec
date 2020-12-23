@@ -156,18 +156,7 @@ function displayCart(){
     
 }
 
-function subItem(value)
-{
-    value -= 1;
-    //localStorage.setItem("productsInCart");
-    console.log("The value is ", value);
-    console.log("Key is",keys);
 
-}
-
-function addItem(){
-            console.log("Add item function");
-                }
 
 onLoadCartNumbers();
 displayCart();
